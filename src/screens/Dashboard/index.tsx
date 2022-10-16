@@ -1,21 +1,14 @@
 import React from 'react';
 
 import {View, Text, StyleSheet} from 'react-native';
+import {Container, Title} from './styles'
 
 export function Dashboard() {
     return (
-        <View style={styles.container}>
-            <Text>
+        <Container>
+            <Title>
                 Dashboard
-            </Text>
-        </View>
+            </Title>
+        </Container>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1, 
-        justifyContent: 'center',
-        alignItems: 'center',
-    }
-});
